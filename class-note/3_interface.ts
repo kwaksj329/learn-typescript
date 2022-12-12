@@ -47,7 +47,7 @@ var strObj: StringRegexDictionary = {
   jsFile: /\.js$/,
 };
 
-Object.keys(obj).forEach(function (value) {});
+Object.keys(strObj).forEach(function (value) {});
 
 //인터페이스 확장
 interface Person {
